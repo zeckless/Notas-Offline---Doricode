@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Personales - Cliente 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1> Notas Personales</h1>
+            <div class="status-bar">
+                <span class="client-id">Cliente 1 - Puerto 8001</span>
+                <div class="connection-status" id="connection-status">
+                    <span class="status-indicator offline"></span>
+                    <span class="status-text">Sin conexión</span>
+                </div>
+            </div>
+        </header>
+
+        <div class="notes-input">
+            <input type="text" id="note-title" placeholder="Título de la nota" />
+            <textarea id="note-content" placeholder="Contenido de la nota..."></textarea>
+            <button id="add-note-btn">Agregar Nota</button>
+        </div>
+
+        <div class="notes-list" id="notes-list">
+            <!-- Las notas se renderizarán aquí -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# Archivos de Doricode (no subir)
+politica_uso_de_git.md
+politica_uso_de_IA.md
+prueba_tecnica.md
+Doricode-public-key.asc
+
+# Node
+node_modules/
+npm-debug.log
+
+# Sistema
+.DS_Store
+*.log
